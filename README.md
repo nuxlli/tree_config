@@ -1,5 +1,7 @@
 # TreeConfig
 
+[![wercker status](https://app.wercker.com/status/dc725198718b8086571586de58fd2b0e/m "wercker status")](https://app.wercker.com/project/bykey/dc725198718b8086571586de58fd2b0e)
+
 Simple configure module to elixir projects.
 
 # Simple example
