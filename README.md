@@ -34,7 +34,7 @@ iex> System.Config.get(:from_env)
 "env_value"
 ```
 
-# Depedencies overrides examples
+# Depedencie override example
 
 ```elixir
 defmodule OverTheSimple.Mixfile do
