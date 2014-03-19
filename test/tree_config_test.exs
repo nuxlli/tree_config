@@ -1,6 +1,5 @@
 defmodule TreeConfigTest do
   use ExUnit.Case, async: false
-  alias TreeConfig.Mixfile
 
   import Mock
 

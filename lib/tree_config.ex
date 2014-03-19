@@ -1,6 +1,6 @@
 defmodule TreeConfig do
   defmacro __using__(mix_module) do
-    app = Macro.expand_all(mix_module, __ENV__).project[:app]
+    app = Macro.expand(mix_module, __ENV__).project[:app]
     quote do
       def get(key) do
         get_app_env(unquote(app), key)

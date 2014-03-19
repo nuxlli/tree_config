@@ -4,7 +4,7 @@ defmodule TreeConfig.Mixfile do
   def project do
     [ app: :tree_config,
       version: "0.0.1",
-      elixir: "~> 0.10.3",
+      elixir: "~> 0.12.4",
       deps: deps(Mix.env),
       configs: [
         example: :mixfile_value,
